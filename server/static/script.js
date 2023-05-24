@@ -57,6 +57,8 @@ function start() {
     new_div.id = id;
     display_div.appendChild(new_div);
   }
+
+  picture = document.createElement
   update();
 }
 

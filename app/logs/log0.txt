@@ -23,3 +23,5 @@
 80002 paint 1 1 red
 80003 paint 1 1 red
 80004 paint 0 0 blue
+80007 paint 1 0 lblue
+80008 paint 1 1 white
