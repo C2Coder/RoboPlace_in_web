@@ -24,8 +24,8 @@ load_from_file()
 
 def background_task():
     while True:
-        save_to_file()
         print('saved')
+        save_to_file()
         time.sleep(60)
 
 chars = ["a", "b", "c", "d", "e", "f", "g", "h",
