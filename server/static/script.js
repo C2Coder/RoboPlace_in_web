@@ -58,7 +58,9 @@ function start() {
     display_div.appendChild(new_div);
   }
 
-  picture = document.createElement
+  picture = document.createElement('img');
+  picture.src = "static/colors.png"
+  document.body.appendChild(picture)
   update();
 }
 

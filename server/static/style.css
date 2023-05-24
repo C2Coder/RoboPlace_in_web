@@ -21,6 +21,11 @@ body {
   border-radius: 4px;
 }
 
+img{
+  width: max(30vw, 30vh);
+  padding: max(1vw, 1vh);
+}
+
 #display {
   display: grid;
   grid-template-columns: repeat(100, 1fr);
