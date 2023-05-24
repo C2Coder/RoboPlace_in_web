@@ -1,4 +1,4 @@
-# RoboPlace_in_web
+# RoboPlace in web
 
 Use microbit to draw on canvas
 users can access the canvas via browser on port 8080
