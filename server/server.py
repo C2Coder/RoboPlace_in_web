@@ -24,7 +24,7 @@ load_from_file()
 
 def background_task():
     while True:
-        print('saved')
+        #print('saved')
         save_to_file()
         time.sleep(60)
 
@@ -80,7 +80,7 @@ def handle_incoming():
             pixels[int(data[0])][int(data[1])] = int(data[2])
 
             #print('updated')  # yeah that works
-            print(pixels[int(data[0])][int(data[1])])
+            #print(pixels[int(data[0])][int(data[1])])
             return 'POST request received'
         except:
             return 'failed'
