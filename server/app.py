@@ -90,4 +90,4 @@ if __name__ == '__main__':
     bg_thread = Thread(target=background_task)
     bg_thread.start()
     app.static_folder = 'static'
-    app.run(port=8080, host='0.0.0.0', debug=False, use_reloader = True)
+    app.run(port=80, host='0.0.0.0', debug=False, use_reloader = False)
